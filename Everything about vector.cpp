@@ -109,6 +109,37 @@ int main ()
     a = { 2, 3, 1, 5 };
     cout << max_element( a.begin(), a.end() ) - a.begin() << endl; /// 3
     cout << *max_element( a.begin(), a.end() ) << endl; /// 5
+   
+    ///Second Part 
+    vector <int> v = {2 , 3 , 5 , 5 , 7 , 7 , 7 , 4 , 0 ,3} ; 
+	
+	/*sort(v.begin() , v.end()) ; ///O(nlog2n)
+	int sz = unique(v.begin() , v.end()) - v.begin() ; //O(n) -> Compexity 
+	//Unique functions returns end pointer 
+	//Deteing end pointer from first pointer gives main size 
+
+	for(int i = 0 ; i < sz ; i++){
+		cout << v[i] << ' ' ; 
+	}
+	cout << endl ; */
+
+	//vector <int> :: iterator it = max_element(v.begin() , v.end()) ; ///returns max element pointer 
+	//cout << *it << endl; 
+
+	//int indx = max_element(v.begin() , v.end()) - v.begin() ; ///returns Index ; 
+	//cout << indx << endl; 
+	
+	//There is another function in vector that is min_element
+	//Working procedure is same as max_element 
+
+	vector < vector <int> > a ; 
+	a.push_back(v) ; //Pushing entire vector in a 2d vector 
+	a.push_back(v) ; //pushing second time 
+
+	for(auto u : a){
+		for(auto g : u) cout << g <<  ' ' ; // printing two separate vector 
+		cout << endl ;
+	}
 
     return 0;
 }
