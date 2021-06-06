@@ -13,10 +13,8 @@ vector <int> prefixSum(vector<int> v , int n) //Takes vector and size (return ty
 
 //I have to call this in main Function
 //vector <int> c = prefixSum(v , v.size()) ; 
-//
 
-
-//Quick Style
+///Quick Style
 /*
     vector<int> prefix = a;
     partial_sum(prefix.begin(), prefix.end(), prefix.begin()); //The prefix sum would be stored in the vector
