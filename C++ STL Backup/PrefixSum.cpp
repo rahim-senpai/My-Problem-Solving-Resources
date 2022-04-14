@@ -5,7 +5,7 @@ vector <int> prefixSum(vector<int> v , int n) //Takes vector and size (return ty
     prefix[0] = 0 ; 
 
     for(int i = 1 ; i <= n ; i++){
-        prefix[i] = prefix[i - 1] + v[i - 1] ; //Sums Up previous value 
+        prefix[i] = prefix[i - 1] + prefix[i - 1] ; //Sums Up previous value 
     }
 
     return prefix ; 
