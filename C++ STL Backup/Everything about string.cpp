@@ -98,14 +98,14 @@ int main ()
     cout << *min_element( s.begin(), s.end() ) << endl; /// a
 
     /// When we want to take input with space
-    /// input : Muhammad Shahriar Alam
+    /// input : a name
 
     char c;
     cin >> c;
     getline( cin, s );
     s = c + s;
 
-    cout << s << endl; /// Muhammad Shahriar Alam
+    cout << s << endl; // The name
 
     /// If we need to sort some string on lexicographical order :
 
@@ -142,7 +142,7 @@ int main ()
 
 	v.clear();
 
-	v = { "Shahriar", "Shahriar", "Momo", "Momo", "Sharif", "Sharif" };
+	v = { "prity", "Habib", "Mumu", "Mumu", "Sharif", "Sharif" };
 	int Sz = unique ( v.begin(), v.end() ) - v.begin();
 
 
@@ -173,11 +173,11 @@ int main ()
 
 
 	/// Copying a substring of a string to a string
-	tmp = "Gagha Alam Gadha";
-	s = "Shahriar ";
+	tmp = "Happy birthday";
+	s = "rasel";
 
 	copy ( tmp.begin()+6, tmp.begin()+10, back_inserter ( s ) ); /// copying "Alam substring to string s back.
-	cout << s << endl; /// Shahriar Alam
+	cout << s << endl; /// The name
 
 	/// Erasing all occurrence of a specific char from string.
 

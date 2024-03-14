@@ -1,7 +1,3 @@
-///   ***   ---   |||		 In the name of ALLAH		|||   ---   ***   ///
-
-
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -117,7 +113,7 @@ int main()
 	s2.insert ( "karim" );
 	s2.insert ( "sifat" );
 	s2.insert ( "kabir" );
-	s2.insert ( "shahriar" );
+	s2.insert ( "foken" );
 	s2.insert ( "emam" );
 	s2.insert ( "sharif" );
 	s2.insert ( "toma" );
@@ -134,7 +130,7 @@ int main()
     nobel
     prety
     proma
-    shahriar
+    kabir
     sharif
 
     */
@@ -151,7 +147,7 @@ int main()
 	s2.insert ( "karim" );
 	s2.insert ( "sifat" );
 	s2.insert ( "kabir" );
-	s2.insert ( "shahriar" );
+	s2.insert ( "foken" );
 	s2.insert ( "emam" );
 	s2.insert ( "sharif" );
 	s2.insert ( "toma" );
@@ -164,7 +160,7 @@ int main()
 
 	6
     sharif
-    shahriar
+    lata
     proma
     prety
     nobel
